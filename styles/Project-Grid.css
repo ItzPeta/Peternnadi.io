@@ -1,0 +1,128 @@
+
+.project-writeup-container {
+    display: flex;
+    /* background-color: yellow; */
+    justify-content: center;
+    padding-top: 96px;
+}
+
+.project-writeups{
+display: flex;
+flex-direction: column;
+max-width: 100%;
+/* background-color: red; */
+justify-content: center;
+align-items: center;
+max-width: 720px;
+margin-bottom: 8px;
+
+}
+.project-label {
+
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 28px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #616F80;
+    }
+
+#write-up{
+    font-style: normal;
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 44px;
+    text-align: center;
+    color: #000e1f;
+  
+}
+
+
+/* Project-main-container sections */
+
+.Project-main-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 48px;
+    /* padding: 0px 80px; */
+    padding: 48px 80px 200px 80px;
+    /* border: 2px solid red; */
+ 
+}
+
+
+@media (min-width:601px) {
+    .Project-main-container {
+        grid-template-columns: 1fr 1fr ;
+    }
+}
+
+/* @media (min-width: 801px) and ( max-width: 1400px) {
+    .Project-main-container {
+        grid-template-columns: 1fr 1fr 1fr ;
+    }
+}
+
+@media (min-width: 1440px) {
+    .Project-main-container {
+        grid-template-columns: 1fr 1fr 1fr ;
+    } */
+}
+
+
+/* Blog card sections */
+
+.blog-card {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    border: 2px solid rgb(255, 252, 252);
+    /* box-shadow: 0px 8px 32px rgba(128, 128, 128, 0.3); */
+}
+
+.blog-image {
+    width: 100%;
+}
+
+.bottom-text-flexbox {
+    display: flex;
+    /* background-color: red; */
+    justify-content: center;
+    align-items: flex-start;
+    margin: 16px 8px;
+    
+}
+
+.avatar {
+    width: 50px;
+    margin-right: 8px;
+    border-radius: 25px;
+}
+.texts-flexbox {
+    flex: 1;
+}
+
+.blog-title {
+   
+font-style: normal;
+font-weight: 600;
+font-size: 1.4em;
+line-height: 32px;
+color: #122740;
+}
+
+.blog-author {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1em;
+    line-height: 28px;
+    text-transform: uppercase;
+    color: #616F80;
+
+}
+
+
+
+
+

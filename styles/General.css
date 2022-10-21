@@ -1,0 +1,108 @@
+
+Body, p {
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    color: rgb(78, 78, 78);
+    font-family: 'Open Sans', Arial, Helvetica, sans-serif;
+    /* padding-top: 80px; */
+}
+
+/* Here is my button styles  */
+
+.Primary-button {
+    /* font-family: 'Open Sans'; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 12px 24px;
+    gap: 8px;
+    background: #00AA00;
+    border-radius: 8px;
+    color: white;
+    border: 1px solid #00AA00;
+    cursor: pointer;
+    transition: 0.15s;
+}
+.Primary-button:hover {
+    /* font-family: 'Open Sans'; */
+    padding: 12px 24px;
+    padding: 12px 24px;
+    background: #15c015;
+    border-radius: 8px;
+    color: white;
+    border: 1px solid #00AA00;
+}
+
+
+
+.Secondary-button {
+    /* font-family: 'Open Sans'; */
+    padding: 12px 24px;
+    padding: 12px 24px;
+    border: 1px solid #00AA00;
+    border-radius: 8px;
+    background-color: white;
+    font-size: 14px;
+    font-weight: 500;
+    color: #00AA00;
+    cursor: pointer;
+    transition: 0.15s;
+}
+
+
+.Secondary-button:hover {
+    /* font-family: 'Open Sans'; */
+    padding: 12px 24px;
+    padding: 12px 24px;
+    border: 1px solid #00AA00;
+    border-radius: 8px;
+    background-color: rgb(245, 255, 250);
+    font-size: 14px;
+    font-weight: 500;
+    color: #00AA00;
+    cursor: pointer;
+}
+
+
+
+
+
+    .pframe {
+        height: 384px;
+        background: #2B2D42;
+    }
+
+    .pframe img {
+        border-radius: 50px;
+        width: 50px;
+
+     
+    }
+
+    .index-title {
+        width: 500px;
+        text-align: center;
+    }
+
+    .whatsapp {
+        position: fixed;
+        right: 16px;
+        bottom: 12px;
+        cursor: pointer;
+        z-index: 1;
+    }
+
+    .whatsapp:hover {
+        position: fixed;
+        right: 16px;
+        bottom: 16px;
+        cursor: pointer;
+        z-index: 1;
+    }
+
+      html {
+        scroll-behavior: smooth;
+      }

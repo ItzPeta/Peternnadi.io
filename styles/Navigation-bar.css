@@ -1,0 +1,56 @@
+/* Navigation Bar Section  */
+
+.Navbar {
+    display: flex;
+    background-color: rgb(255, 255, 255);
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid hsla(0, 0%, 89%, 0.5);
+    height: 80px;
+    /* position fixed properties to make the top navbar stick to the top */
+    position: fixed;
+    top: 0;
+    left: 0px;
+    right: 0px; 
+    z-index: 1;
+}
+
+.nav-left-box { 
+    display: flex;
+    /* background-color: rgb(5, 70, 92); */
+    width: auto;
+    justify-content: flex-start;
+    margin-left: 80px;
+
+
+}
+
+.nav-middle-box {
+    display: flex;
+    /* background-color: lightgreen; */
+    max-width: 600px;
+    justify-content: space-between;
+    text-align: center;
+    gap: 32px;
+
+
+    
+}
+
+.nav-right-box {
+    display: flex;
+    /* background-color: red; */
+    /* width: 1px; */
+    justify-content: flex-end;
+    margin-right: 80px;
+}
+
+.menu-link {
+    text-decoration: none;
+    color: rgb(92, 92, 92);
+}
+
+.menu-link:hover {
+    color: #00AA00;
+    text-decoration: underline ;
+}
