@@ -52,22 +52,22 @@ margin-bottom: 8px;
 }
 
 
-@media (min-width:601px) {
+@media (max-width:500px) {
     .Project-main-container {
-        grid-template-columns: 1fr 1fr ;
+        grid-template-columns: 1fr;
     }
 }
 
-/* @media (min-width: 801px) and ( max-width: 1400px) {
+@media (min-width: 501px) and ( max-width: 1400px) {
     .Project-main-container {
-        grid-template-columns: 1fr 1fr 1fr ;
+        grid-template-columns: 1fr 1fr ;
     }
 }
 
 @media (min-width: 1440px) {
     .Project-main-container {
         grid-template-columns: 1fr 1fr 1fr ;
-    } */
+    }
 }
 
 
